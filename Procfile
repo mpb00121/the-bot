@@ -1,3 +1,3 @@
-worker: python3 -m The_TVA
-web: python3 -m The_TVA
+worker: python3 -m The_Tva
+web: python3 -m The_Tva
 ps:scale worker=1
