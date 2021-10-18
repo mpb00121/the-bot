@@ -111,7 +111,7 @@ def ban(update: Update, context: CallbackContext) -> str:
 
         )
         if reason:
-            reply += f"\n<code> </code><b>😕 Reason:</b> \n{html.escape(reason)} @The_Tva
+            reply += f"\n<code> </code><b>😕 Reason:</b> \n{html.escape(reason)} @The_Tva"
         bot.sendMessage(chat.id, reply, parse_mode=ParseMode.HTML, quote=False)
         return log
 
