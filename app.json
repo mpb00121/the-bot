@@ -28,17 +28,17 @@
       "TOKEN": {
          "description": "Your bot token. Get one from @BotFather duh",
          "required": true,
-         "value": ""
+         "value": "2077584722:AAGUTVU22L6Uo37j6wtF16FpA8Ja-g-7cg0"
       },
       "API_ID": {
          "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "7608252"
       },      
       "BOT_ID": {
          "description": "BOT_ID",
          "required": true,
-         "value": ""
+         "value": "Tva_beta_bot"
       },      
       "HEROKU_API_KEY": {
          "description": "HEROKU_API_KEY",
@@ -53,7 +53,7 @@
       "API_HASH": {
          "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
          "required": true,
-         "value": ""
+         "value": "832c17b238bc8ec7cbcc1a9847cc597b"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "Your postgres sql db, empty this field if you dont have one.",
@@ -67,22 +67,22 @@
        },
     "MONGO_DB_URI": {
       "description": "Required for database connections",
-      "value": "",
+      "value": "mongodb+srv://admin:admin@cluster0.eake9.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
       "required": true
        },
     "VIRUS_API_KEY": {
       "description": "Get one from https://cloudmersive.com/virus-api ",
-      "value": "",
+      "value": "e97458b6-85dc-436b-8da5-ca1a5699d3cc",
       "required": false
       },      
       "OWNER_ID": {
          "description": "Your user ID as an integer.",
          "required": true,
-         "value": "1108072683"
+         "value": "1991863424"
       },
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "hirunaofficial"
+         "value": "Tva_music"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like:The_TVA ",
@@ -92,32 +92,32 @@
       "EVENT_LOGS": {
          "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001615875633"
       },
       "JOIN_LOGGER": {
          "description": "A channel where bot will print who added it to what group, useful during debugging or spam handling.",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001615875633"
       },      
       "CASH_API_KEY": {
          "description": "Required for currency converter. Get yours from https://www.alphavantage.co/support/#api-key",
          "required": true,
-         "value": "-xyz"
+         "value": "3YJ8VWYQPCYJMEF5"
       },
       "TIME_API_KEY": {
          "description": "Required for timezone information. Get yours from https://timezonedb.com/api",
          "required": true,
-         "value": "-xyz"
+         "value": "2Y3GN1MURF3C"
       },
       "DEV_USERS": {
          "description": "ID of users who are Devs of your bot (can use /py etc.). If you are a noob and would come and bother Saitama support then keep the current ID's here at they are and add yours.",
          "required": false,
-         "value": "1108072683"
+         "value": "1991863424"
       },
       "SPAMWATCH_API": {
          "description": "Spamwatch API Token, Get one from @SpamWatchBot.",
          "required": false,
-         "value": ""
+         "value": "KcOzl5V3PXKIW7ML0Y2hY73VZdMX~hK0RlMdQld3hXIvQB9s7tITG0FNF0xbaMjB"
       }, 
       "STRICT_GBAN": {
          "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
@@ -126,22 +126,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "1108072683"
+         "value": "1991863424"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "1108072683"
+         "value": "1991863424"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": "1108072683"
+         "value": "1991863424"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": "1108072683"
+         "value": "1991863424"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
@@ -179,7 +179,7 @@
       "DONATION_LINK": {
          "description": "Optional: link where you would like to receive donations",
          "required": false,
-         "value": "https://www.paypal.me/username"
+         "value": ""
       },
       "DEL_CMDS": {
          "description": "Set this to True if you want to delete command messages from users who don't have the perms to run that command.",
